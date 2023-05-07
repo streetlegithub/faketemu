@@ -34,3 +34,19 @@ p {
 h2 {
 font-size: 25.5vw;
 }
+.fade-in-text h2 {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
