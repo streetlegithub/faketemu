@@ -9,22 +9,8 @@
    <div class="fade-in-text">
     <h2>🤡</h2>
    </div>
-   <audio id="myAudio" muted>
-  <source src="clown.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-<script>
-  // Get the audio element
-  var audio = document.getElementById("myAudio");
-
-  // Mute the audio on page load
-  audio.muted = true;
-
-  // Unmute the audio after a delay
-  setTimeout(function() {
-    audio.muted = false;
-  }, 1000);
-</script>
+   <audio autoplay>
+    <source src="clown.mp3" type="audio/mpeg">
+   </audio>
   </body>
  </html>
